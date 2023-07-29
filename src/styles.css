@@ -23,6 +23,9 @@ body {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
@@ -67,11 +70,6 @@ body {
   background-color: #462cb3;
   text-decoration: none;
 }
-
-.grid-3-columns {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 section.secondary {
   background: #f8f8f8;
 }
@@ -241,17 +239,6 @@ footer a {
 
   section {
     padding: 30px;
-  }
-
-  .img-responsive {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  footer {
-    padding: 1px;
   }
 
   .card-header img {
